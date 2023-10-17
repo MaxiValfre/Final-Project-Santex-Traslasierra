@@ -1,15 +1,17 @@
 
 .custom-card {
-  width: 100%; 
+  font-size: 1em;
+  width: 100%;
   margin: 0.5em;
   box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
   border: 2px solid;
   border-radius: 10px;
+  padding: 1em; 
 }
 
 .card img {
   max-width: 100%;
-  height: auto; 
+  height: auto;
 }
 
 .carousel-inner {
@@ -18,30 +20,29 @@
 
 .carousel-control-prev,
 .carousel-control-next {
+
+  
   background-color: #000000;
-  width: 5vh;
-  height: 5vh;
+  width: 7vh;
+  height: 7vh;
   border-radius: 50%;
   top: 50%;
   transform: translateY(-50%);
 }
 
-
 @media (min-width: 768px) {
+  .custom-card {
+    padding: 1em; 
+  }
+
   .card img {
     height: 11em;
   }
-
-  .card img {
-    height: 11em; 
-  }
 }
-
 
 @media (max-width: 767px) {
   .card img {
     height: 15em;
-    
   }
 }
 
